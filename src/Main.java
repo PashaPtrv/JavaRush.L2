@@ -4,36 +4,26 @@ public class Main {
 
 
     public static void main(String[] args){
-   /*     //Создать объект типа Cat 2 раза.
-        Cat cat1 = new Cat();
-        Cat cat2 = new Cat();
-    }
 
-    public static class Cat {  */
+        //Создайте 10 переменных типа Cat и 8 объектов типа Cat.
 
-
-        //Создать 3 объекта типа Dog (собака) и присвоить им имена "Max", "Bella", "Jack".
-        Dog dog1 = new Dog();
-        dog1.name = "Max";
-
-        Dog dog2 = new Dog();
-        dog2.name = "Bella";
-
-        Dog dog3 = new Dog();
-
-        dog3.name = "Jack";
-
-        //Напиши программу, которая выводит на экран надпись:
-
-        System.out.println("Мне так плохо! Хочу, чтобы все умерли!");
-
+        Cat cat1;
+        Cat cat2;
+        Cat cat3 = new Cat();
+        Cat cat4 = new Cat();
+        Cat cat5 = new Cat();
+        Cat cat6 = new Cat();
+        Cat cat7 = new Cat();
+        Cat cat8 = new Cat();
+        Cat cat9 = new Cat();
+        Cat cat10 = new Cat();
 
     }
 
-    public static class Dog {
-
-        public String name;
+    public static class Cat{
 
     }
+
 
 }
+
